@@ -1,0 +1,3556 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b73db4e16cbf0b89a1cdec5ba077f9aa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b73db4e16cbf0b89a1cdec5ba077f9aa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b73db4e16cbf0b89a1cdec5ba077f9aa = L.map(
+                "map_b73db4e16cbf0b89a1cdec5ba077f9aa",
+                {
+                    center: [51.1323, 0.867371],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_096d94830c0c2471b54d5077c44c5ab3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_096d94830c0c2471b54d5077c44c5ab3.addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            var circle_748892718db59174bcfdfb0536db6120 = L.circle(
+                [51.1323, 0.867371],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#eb6834", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.6, "radius": 16093.4, "stroke": true, "weight": 2}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_748892718db59174bcfdfb0536db6120.bindTooltip(
+                `<div>
+                     10 miles straight line
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_67a5e3c5e06a0484344bc2bdd31fed6a = L.circle(
+                [51.1323, 0.867371],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.6, "radius": 32186.8, "stroke": true, "weight": 2}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_67a5e3c5e06a0484344bc2bdd31fed6a.bindTooltip(
+                `<div>
+                     20 miles straight line
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f181fba9b01e7bef721f6d2c39e26314 = L.circleMarker(
+                [51.260753, 0.526956],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_f181fba9b01e7bef721f6d2c39e26314.bindTooltip(
+                `<div>
+                     Elizabeths Rose Home Care (Elizabeth's Rose Home Care Limited) — 17.2 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_565cf9224b45c16d248f60940bebe6c9 = L.circleMarker(
+                [51.135385, 1.298625],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_565cf9224b45c16d248f60940bebe6c9.bindTooltip(
+                `<div>
+                     Priory Supported Living Kent (Craegmoor Homes Limited) — 18.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b93a87ddd4f474819bc7d8104537f67c = L.circleMarker(
+                [51.270883, 0.523898],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b93a87ddd4f474819bc7d8104537f67c.bindTooltip(
+                `<div>
+                     Glorycrown Healthcare Ltd (Glorycrown Healthcare Ltd) — 17.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e82fb9225bc2627ddbfc5d352b8f5ab3 = L.circleMarker(
+                [51.365288, 0.740916],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_e82fb9225bc2627ddbfc5d352b8f5ab3.bindTooltip(
+                `<div>
+                     Simplex Healthcare Limited (Simplex Healthcare Limited) — 17.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_94dd5be594f5f70e6d5963eec7dae2c5 = L.circleMarker(
+                [51.367159, 0.597205],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_94dd5be594f5f70e6d5963eec7dae2c5.bindTooltip(
+                `<div>
+                     Logic Care Solutions (Logic Care Solutions Limited) — 20.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3db7a6b18fdf14c62cf0086922b28bb7 = L.circleMarker(
+                [51.080516, 1.172108],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_3db7a6b18fdf14c62cf0086922b28bb7.bindTooltip(
+                `<div>
+                     Camelot Lodge (ACL Homes Plus Limited) — 13.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6b2f768f7e14d2bcf6d2039fa933d484 = L.circleMarker(
+                [51.113345, 0.954236],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_6b2f768f7e14d2bcf6d2039fa933d484.bindTooltip(
+                `<div>
+                     Devoted Homecare (Devoted Homecare Ltd) — 4.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7409567641e6d3f20ec0ee44e468addc = L.circleMarker(
+                [51.364741, 0.604826],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_7409567641e6d3f20ec0ee44e468addc.bindTooltip(
+                `<div>
+                     Home Instead Medway (Dera Care Limited) — 19.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_39264cdb886046ab65888cf083c3eb95 = L.circleMarker(
+                [51.153978, 1.291613],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_39264cdb886046ab65888cf083c3eb95.bindTooltip(
+                `<div>
+                     Bluebird Care Canterbury, Thanet, Folkestone and Dover (Care and Training Services Limited) — 18.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5a3ee991fb6a8201734a463a5aa0e0e4 = L.circleMarker(
+                [51.177507, 0.503927],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_5a3ee991fb6a8201734a463a5aa0e0e4.bindTooltip(
+                `<div>
+                     LOD Care and Case Management Ltd (LOD Care and Case Management Ltd) — 16.1 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a5e1474cc0f558188d76e1d7fec38a59 = L.circleMarker(
+                [51.052887, 0.693498],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_a5e1474cc0f558188d76e1d7fec38a59.bindTooltip(
+                `<div>
+                     Town & Country Homecare Limited (Town and Country Homecare Ltd) — 9.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_36aee0f2cd66d3ad53352e46bf3ad0c4 = L.circleMarker(
+                [51.356497, 1.056483],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_36aee0f2cd66d3ad53352e46bf3ad0c4.bindTooltip(
+                `<div>
+                     Tender Loving Carers (Tender Loving Carers Domiciliary Limited) — 17.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_24f068d89a1018d86204d740fba0fe0d = L.circleMarker(
+                [51.170547, 0.635241],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_24f068d89a1018d86204d740fba0fe0d.bindTooltip(
+                `<div>
+                     Kevin Cross Case Management Ltd (Kevin Cross Case Management Ltd) — 10.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ab5774a1a6b1f38d1881b65ef12bacea = L.circleMarker(
+                [51.349112, 0.726105],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_ab5774a1a6b1f38d1881b65ef12bacea.bindTooltip(
+                `<div>
+                     Care2Victory Services Ltd (Care2Victory Services Ltd) — 16.2 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_df1cd66eb7c55eecec3da75ac808ef13 = L.circleMarker(
+                [51.32974, 0.733356],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_df1cd66eb7c55eecec3da75ac808ef13.bindTooltip(
+                `<div>
+                     Ezer Care Limited (Ezer Care Limited) — 14.8 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd791b95471c8969a1335f0f1410f9cb = L.circleMarker(
+                [51.311253, 0.898466],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_dd791b95471c8969a1335f0f1410f9cb.bindTooltip(
+                `<div>
+                     Home Instead Canterbury (Open Arms Care Limited) — 12.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_deefa6732a119a8e7b5adbfd47c90614 = L.circleMarker(
+                [51.316937, 1.17347],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_deefa6732a119a8e7b5adbfd47c90614.bindTooltip(
+                `<div>
+                     Canterbury (Meridian Community Care Limited) — 18.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_97ec87acc65732a02f6eec16083d00d0 = L.circleMarker(
+                [51.126291, 1.315473],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_97ec87acc65732a02f6eec16083d00d0.bindTooltip(
+                `<div>
+                     Dover (Meridian Community Care Limited) — 19.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c1961aa50e43dfc15d42b4cc6cffc6d4 = L.circleMarker(
+                [51.370608, 1.103707],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_c1961aa50e43dfc15d42b4cc6cffc6d4.bindTooltip(
+                `<div>
+                     Harbour Care Home (Harbour Homes UK Limited) — 19.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b687e96e3c8bf1646c416ec55c3e753d = L.circleMarker(
+                [51.291812, 0.496171],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b687e96e3c8bf1646c416ec55c3e753d.bindTooltip(
+                `<div>
+                     Angels Homecare Kent Ltd (Angels Home Care (Kent) Limited) — 19.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f7872e5cf40f0bbd2024c82eaf75aa56 = L.circleMarker(
+                [51.366847, 1.132493],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_f7872e5cf40f0bbd2024c82eaf75aa56.bindTooltip(
+                `<div>
+                     Home Service Complete Care LLP (Home Service Complete Care (Herne Bay)) — 19.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0d088af09f62fc936bc9d0e2de1e7657 = L.circleMarker(
+                [51.118332, 0.555243],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_0d088af09f62fc936bc9d0e2de1e7657.bindTooltip(
+                `<div>
+                     Independent Care Solutions T/A Agacia Care Ltd (Agacia Care Ltd) — 13.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a0274722ff5e1a76f27a78129dc106d0 = L.circleMarker(
+                [51.162297, 0.878372],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_a0274722ff5e1a76f27a78129dc106d0.bindTooltip(
+                `<div>
+                     Ashforhire Professionals Limited (Ashforhire Professionals Limited) — 2.1 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9cbb6f382894fbd5d9becb96aebdc15b = L.circleMarker(
+                [51.411326, 0.790167],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_9cbb6f382894fbd5d9becb96aebdc15b.bindTooltip(
+                `<div>
+                     Neptune Solutions UK Ltd (Neptune Solutions UK Ltd) — 19.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_68381914f393b32674832f65197c480b = L.circleMarker(
+                [51.364628, 0.741423],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_68381914f393b32674832f65197c480b.bindTooltip(
+                `<div>
+                     River Stone (UK) Limited (River Stone (UK) Limited) — 17.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8cd56dd87585cc2a6a52dacd71f062bd = L.circleMarker(
+                [51.14351, 0.848877],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_8cd56dd87585cc2a6a52dacd71f062bd.bindTooltip(
+                `<div>
+                     The Bliss Homes Adult Services Ltd (The Bliss Homes Adult Services Ltd) — 1.1 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9a7517fc628a1cce9e5354e08418c465 = L.circleMarker(
+                [51.276952, 1.077683],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_9a7517fc628a1cce9e5354e08418c465.bindTooltip(
+                `<div>
+                     Intrinsic Care- Canterbury (The Intrinsic Care Group Limited) — 13.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5488d0a3dfd32cc3a4b2906afef4cfab = L.circleMarker(
+                [51.1323, 0.867371],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_5488d0a3dfd32cc3a4b2906afef4cfab.bindTooltip(
+                `<div>
+                     Kent Care Consultants LTD (Kent Care Consultants Ltd) — 0.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5c17c129f0104ebc212f4650dc122a1b = L.circleMarker(
+                [51.274845, 0.530768],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_5c17c129f0104ebc212f4650dc122a1b.bindTooltip(
+                `<div>
+                     The BIS Services - DCS (The BIS Services Limited) — 17.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_186914b614ed1ba88b00d4d7f548bc6b = L.circleMarker(
+                [51.275779, 0.519564],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_186914b614ed1ba88b00d4d7f548bc6b.bindTooltip(
+                `<div>
+                     Eclectic Care Ltd (Eclectic Care Ltd) — 18.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4cf5a5f04236b06f191c8399e2c833d8 = L.circleMarker(
+                [51.291295, 1.099587],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_4cf5a5f04236b06f191c8399e2c833d8.bindTooltip(
+                `<div>
+                     Saintly Care Limited (Saintly Care Limited) — 14.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cd0f93391812c9236674c901a209f9e8 = L.circleMarker(
+                [51.284656, 0.556461],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_cd0f93391812c9236674c901a209f9e8.bindTooltip(
+                `<div>
+                     Nurse at Home Ltd (Nurse at Home Ltd) — 17.1 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fb9e0ff4ffb0a4fd57c387dd6422c992 = L.circleMarker(
+                [51.35051, 0.71701],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_fb9e0ff4ffb0a4fd57c387dd6422c992.bindTooltip(
+                `<div>
+                     March Services Care-Kent (March Services (London) Limited) — 16.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6fc94fb20a7af2d6963177c3092644ac = L.circleMarker(
+                [51.260484, 0.526912],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_6fc94fb20a7af2d6963177c3092644ac.bindTooltip(
+                `<div>
+                     Alina Homecare - Maidstone (Alina Homecare Services Limited) — 17.2 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7bdb44fce782948531987db8737ab781 = L.circleMarker(
+                [51.150686, 0.884528],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_7bdb44fce782948531987db8737ab781.bindTooltip(
+                `<div>
+                     Caremark Ashford & Shepway (Kent Residential Services Limited) — 1.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ea2a6bfa214b713cf2e637a3b215a9e4 = L.circleMarker(
+                [51.350487, 0.722639],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_ea2a6bfa214b713cf2e637a3b215a9e4.bindTooltip(
+                `<div>
+                     Oaks Care Holdings LTD (Oaks Care Holdings LTD) — 16.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cbbe25e46d7346b1fd4cb1c55e59903d = L.circleMarker(
+                [51.328577, 0.545152],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_cbbe25e46d7346b1fd4cb1c55e59903d.bindTooltip(
+                `<div>
+                     Platinum Housing Support and Care Ltd (Crown House) (Platinum Housing Support and Care Ltd) — 19.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3e4d3718cbae0ccd5c4f521aca89eaaa = L.circleMarker(
+                [51.274338, 1.085051],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_3e4d3718cbae0ccd5c4f521aca89eaaa.bindTooltip(
+                `<div>
+                     Kent Home Care Limited (Kent Home Care Limited) — 13.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3aba2374c49012f1a5785c3d10a4f0cb = L.circleMarker(
+                [51.137201, 0.833834],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_3aba2374c49012f1a5785c3d10a4f0cb.bindTooltip(
+                `<div>
+                     S2S Healthcare Ltd (S2S Healthcare Ltd) — 1.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ef8d90ade3be788c74cfd696f31096a0 = L.circleMarker(
+                [51.265262, 1.05835],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_ef8d90ade3be788c74cfd696f31096a0.bindTooltip(
+                `<div>
+                     Ashvine Care (Di & Joe Limited) — 12.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c78d5900e4ed9db15392f2a37801ded5 = L.circleMarker(
+                [51.262833, 0.508434],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_c78d5900e4ed9db15392f2a37801ded5.bindTooltip(
+                `<div>
+                     Expertise Homecare (Central & West Kent) Ltd (Expertise Homecare (Central & West Kent) Limited) — 18.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c07903fd8d5c899d8ae7086775fa56af = L.circleMarker(
+                [51.271055, 0.538818],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_c07903fd8d5c899d8ae7086775fa56af.bindTooltip(
+                `<div>
+                     Nurse Plus UK - Maidstone (Nurse Plus and Carer Plus (UK) Limited) — 17.2 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_85209a776c0d48c324944f44f2c68d8c = L.circleMarker(
+                [51.338624, 0.733439],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_85209a776c0d48c324944f44f2c68d8c.bindTooltip(
+                `<div>
+                     Kent Enablement at Home (Kent County Council) — 15.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7b05e95d4f2163816e30827757b75c7c = L.circleMarker(
+                [51.151119, 0.857368],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_7b05e95d4f2163816e30827757b75c7c.bindTooltip(
+                `<div>
+                     Prima Care (Prudent Domiciliary Care Limited) — 1.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0e20f0415af2d0364beaf615b9ce322d = L.circleMarker(
+                [51.162517, 0.866841],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_0e20f0415af2d0364beaf615b9ce322d.bindTooltip(
+                `<div>
+                     Nurse Plus UK - Ashford (Nurse Plus and Carer Plus (UK) Limited) — 2.1 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d5a4aa7451cba524abdad4d8cd407781 = L.circleMarker(
+                [51.284656, 0.556461],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_d5a4aa7451cba524abdad4d8cd407781.bindTooltip(
+                `<div>
+                     ProNurture Group Ltd (ProNurture Group Ltd) — 17.1 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9fef72353dd6fefac3d7d7116ad31462 = L.circleMarker(
+                [51.109762, 1.161378],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_9fef72353dd6fefac3d7d7116ad31462.bindTooltip(
+                `<div>
+                     Hawkinge House (Hawkinge House Limited) — 12.8 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e8d32a2dda8cbf05273b964368f394b6 = L.circleMarker(
+                [51.311253, 0.898466],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_e8d32a2dda8cbf05273b964368f394b6.bindTooltip(
+                `<div>
+                     Avante Home Care and Support Service (Avante Care and Support Limited) — 12.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_26374452ce4da8c998e27531fdbf5f77 = L.circleMarker(
+                [51.332507, 0.734267],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_26374452ce4da8c998e27531fdbf5f77.bindTooltip(
+                `<div>
+                     Cartref Homes Supported Living Scheme (Cartref Homes UK Limited) — 15.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_de6f03c50ea6972ddd2388ff9dcfa593 = L.circleMarker(
+                [51.280881, 0.526955],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_de6f03c50ea6972ddd2388ff9dcfa593.bindTooltip(
+                `<div>
+                     40 Waterlow Road (Jandp Healthcare Services Ltd) — 18.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6cc6e9148070e090e9572d42e19d4e0f = L.circleMarker(
+                [51.234511, 0.489085],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_6cc6e9148070e090e9572d42e19d4e0f.bindTooltip(
+                `<div>
+                     Namaste Care Services Limited (Namaste Care Services Limited) — 17.8 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_06dad5912b7218617192ab06317b26a7 = L.circleMarker(
+                [51.35083, 0.724914],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_06dad5912b7218617192ab06317b26a7.bindTooltip(
+                `<div>
+                     Angel + Homecare LTD (Angel + Homecare Ltd) — 16.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_52fc2680098e6c462ffcdb2145a13b68 = L.circleMarker(
+                [51.094725, 1.150954],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_52fc2680098e6c462ffcdb2145a13b68.bindTooltip(
+                `<div>
+                     Meritum Integrated Care LLP (Folkestone) (Meritum Integrated Care LLP) — 12.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7cc1850c0a4eba28f5b1e648bfdfbc26 = L.circleMarker(
+                [51.150207, 0.875117],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_7cc1850c0a4eba28f5b1e648bfdfbc26.bindTooltip(
+                `<div>
+                     Dream Care Ltd (Dream Care Ltd) — 1.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_27e29d28e648cf9b62853574489337e3 = L.circleMarker(
+                [51.274022, 0.521389],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_27e29d28e648cf9b62853574489337e3.bindTooltip(
+                `<div>
+                     Helping Hands Maidstone (Midshires Care Limited) — 17.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_219703450782168df26db8b22a5c15c8 = L.circleMarker(
+                [51.146574, 0.87143],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_219703450782168df26db8b22a5c15c8.bindTooltip(
+                `<div>
+                     Ultima Care and Nursing (PT Southern Services Ltd) — 1.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_366f221668ebf27b1a63b5dd439a2838 = L.circleMarker(
+                [51.331166, 1.118989],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_366f221668ebf27b1a63b5dd439a2838.bindTooltip(
+                `<div>
+                     CCK Support Ltd (CCK Support Ltd) — 17.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5e6c579ec1c9a197efcfee77a1bc7866 = L.circleMarker(
+                [51.235334, 0.495648],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_5e6c579ec1c9a197efcfee77a1bc7866.bindTooltip(
+                `<div>
+                     Homecare Unique Limited (Homecare Unique Limited) — 17.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6b2ebff6cca74a08a7b184f9e1ee0462 = L.circleMarker(
+                [51.086698, 1.151094],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_6b2ebff6cca74a08a7b184f9e1ee0462.bindTooltip(
+                `<div>
+                     Home Instead Senior Care (Kent Senior Care Ltd) — 12.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f96f18c2f0e3fb76eea055d83bf2557b = L.circleMarker(
+                [51.150025, 1.288857],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_f96f18c2f0e3fb76eea055d83bf2557b.bindTooltip(
+                `<div>
+                     Inchwater Home Care (Inchwater Ltd) — 18.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1ae9eb88113bf39b822ce5cb8205db4e = L.circleMarker(
+                [51.138086, 0.87169],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_1ae9eb88113bf39b822ce5cb8205db4e.bindTooltip(
+                `<div>
+                     Ashford Personnel and Solutions Limited (Ashford Personnel and Solutions Limited) — 0.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_787e2d88104d9ed4655ff1ff0dd0a288 = L.circleMarker(
+                [51.045878, 0.514084],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_787e2d88104d9ed4655ff1ff0dd0a288.bindTooltip(
+                `<div>
+                     Kent SCP (Bowles Lodge) (Kent Social Care Professionals Limited) — 16.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2685d66abd69611b5396991b5da20565 = L.circleMarker(
+                [51.272547, 0.520978],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_2685d66abd69611b5396991b5da20565.bindTooltip(
+                `<div>
+                     Age UK Maidstone (Age UK Maidstone) — 17.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_184092f4297537d7e64d6d82bc0890a5 = L.circleMarker(
+                [51.338283, 0.734984],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_184092f4297537d7e64d6d82bc0890a5.bindTooltip(
+                `<div>
+                     Norwyn Community Services (Norwyn Community Services Limited) — 15.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_65f627d87a6ed6f7966884a39cc91e6c = L.circleMarker(
+                [51.171175, 0.886021],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_65f627d87a6ed6f7966884a39cc91e6c.bindTooltip(
+                `<div>
+                     AZ Caring Services Ltd (A Z Caring Services Ltd) — 2.8 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_095102f9b4a2b460a29718ae2a52dec5 = L.circleMarker(
+                [51.2437, 0.967541],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_095102f9b4a2b460a29718ae2a52dec5.bindTooltip(
+                `<div>
+                     Expertise Homecare Ashford and Canterbury (Capella Care Limited) — 8.8 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6ad64ea2486344087f8f9bf6ee76654b = L.circleMarker(
+                [51.092765, 1.149249],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_6ad64ea2486344087f8f9bf6ee76654b.bindTooltip(
+                `<div>
+                     Folkestone Home Care (Folkestone Home Care Ltd) — 12.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d539b27a548bf79c240a9216480033c5 = L.circleMarker(
+                [51.124605, 0.897496],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_d539b27a548bf79c240a9216480033c5.bindTooltip(
+                `<div>
+                     Bluebird Care (Ashford) (Piromar Ltd) — 1.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f6cda349f911140fe2aa8fc85cff3242 = L.circleMarker(
+                [51.260753, 0.526956],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_f6cda349f911140fe2aa8fc85cff3242.bindTooltip(
+                `<div>
+                     Swanton Community Services – Kent (Swanton Community Services) — 17.2 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8afd5146a8add23c17625f492c822b99 = L.circleMarker(
+                [51.328577, 0.545152],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_8afd5146a8add23c17625f492c822b99.bindTooltip(
+                `<div>
+                     First Class Healthcare Ltd (First Class Healthcare Ltd) — 19.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d7d47c2cfc49e5ae32db6874b357a10d = L.circleMarker(
+                [51.084099, 1.173996],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_d7d47c2cfc49e5ae32db6874b357a10d.bindTooltip(
+                `<div>
+                     Liberty Lodge Limited (Liberty Lodge Limited) — 13.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d6da309ff8e8b6969305637e0965e17f = L.circleMarker(
+                [51.23619, 0.441826],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_d6da309ff8e8b6969305637e0965e17f.bindTooltip(
+                `<div>
+                     Home Instead Senior Care (Maidstone) (Mid Kent Senior Care Limited) — 19.8 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d3416d97818bac689c7bd6edd673ed65 = L.circleMarker(
+                [51.083915, 1.034631],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_d3416d97818bac689c7bd6edd673ed65.bindTooltip(
+                `<div>
+                     Papillon Home Care (Papillon Home Care Limited) — 8.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_046154671825f309a5da388a464c074a = L.circleMarker(
+                [51.346812, 0.748704],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_046154671825f309a5da388a464c074a.bindTooltip(
+                `<div>
+                     Blossoms Care Services Ltd DCA (Blossoms Care Services Limited) — 15.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5fb9f32d549c7f78c6d50d72f93500ce = L.circleMarker(
+                [51.068343, 0.688643],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_5fb9f32d549c7f78c6d50d72f93500ce.bindTooltip(
+                `<div>
+                     Jasmine Care South East Limited (Jasmine Care (South East) Limited) — 8.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_10ea7f7d8a0432176abb6917b58a0b24 = L.circleMarker(
+                [51.282506, 1.081612],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_10ea7f7d8a0432176abb6917b58a0b24.bindTooltip(
+                `<div>
+                     L'Arche Kent (L'Arche) — 13.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_927afe418a2e351fd21009ca4b7b7502 = L.circleMarker(
+                [51.272419, 1.069078],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_927afe418a2e351fd21009ca4b7b7502.bindTooltip(
+                `<div>
+                     Great Prospects Care Ltd (Great Prospects Care Limited) — 13.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b73ddf32f5aa27395b6866df316a81e8 = L.circleMarker(
+                [51.328577, 0.545152],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b73ddf32f5aa27395b6866df316a81e8.bindTooltip(
+                `<div>
+                     Connect and Care (Umoya Trust (UK)) — 19.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_30e29ef414ec4eb03556e3aac8bc1c01 = L.circleMarker(
+                [51.275779, 0.519564],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_30e29ef414ec4eb03556e3aac8bc1c01.bindTooltip(
+                `<div>
+                     CCS Care Ltd (CCS Care Ltd) — 18.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_83a1471dc8d8b1885b4990a73d57725b = L.circleMarker(
+                [51.317991, 0.869238],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_83a1471dc8d8b1885b4990a73d57725b.bindTooltip(
+                `<div>
+                     Dominion Logic Services (Dominion Logic Services Ltd) — 12.8 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_acb67e747eb27c23e492033238ed8e9b = L.circleMarker(
+                [51.162517, 0.866841],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_acb67e747eb27c23e492033238ed8e9b.bindTooltip(
+                `<div>
+                     Kent Enablement at Home (Kent County Council) — 2.1 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f2bfb533c8135401cd3ed157f60a6f65 = L.circleMarker(
+                [51.260672, 0.520271],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_f2bfb533c8135401cd3ed157f60a6f65.bindTooltip(
+                `<div>
+                     Maidstone, Kent (ECL Healthcare Limited) — 17.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_636470b3d9a548e3a7c1a250495d8ab5 = L.circleMarker(
+                [51.371943, 0.726269],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_636470b3d9a548e3a7c1a250495d8ab5.bindTooltip(
+                `<div>
+                     Extended Caring Limited (Extended Caring Limited) — 17.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8c0f22f16aea94f699b2a344a85f9f13 = L.circleMarker(
+                [51.141522, 0.87166],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_8c0f22f16aea94f699b2a344a85f9f13.bindTooltip(
+                `<div>
+                     Care Serene Ltd (Care Serene Ltd) — 0.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b834aa085b96d100ff1097506b45fdb6 = L.circleMarker(
+                [51.284656, 0.556461],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b834aa085b96d100ff1097506b45fdb6.bindTooltip(
+                `<div>
+                     Meritum Integrated Care LLP (Maidstone) (Meritum Integrated Care LLP) — 17.1 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_df56bc8e1bc78d7af75720541c50cc1c = L.circleMarker(
+                [51.279769, 0.549178],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_df56bc8e1bc78d7af75720541c50cc1c.bindTooltip(
+                `<div>
+                     SureCare Maidstone (Oasis Daily Homecare Ltd) — 17.1 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4ea104e63089cded5375152367b9f270 = L.circleMarker(
+                [51.284936, 1.094827],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_4ea104e63089cded5375152367b9f270.bindTooltip(
+                `<div>
+                     Reignsons Cottage Ltd (Reignsons Cottage Ltd) — 14.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e371131bc0b04f56186988b3ca98aece = L.circleMarker(
+                [51.413046, 0.801375],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_e371131bc0b04f56186988b3ca98aece.bindTooltip(
+                `<div>
+                     Pensal Healthcare (PENSAL Services Ltd) — 19.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b99c116ae3e77c20c5441fc15c5889b7 = L.circleMarker(
+                [51.282259, 1.072517],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b99c116ae3e77c20c5441fc15c5889b7.bindTooltip(
+                `<div>
+                     MyLife (Kent) (Lauriem Complete Care Limited) — 13.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_02a04c7f113b9dc727661564ccfba024 = L.circleMarker(
+                [51.242769, 0.556991],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_02a04c7f113b9dc727661564ccfba024.bindTooltip(
+                `<div>
+                     All Loving Support (Maidstone) (All Loving Support Ltd) — 15.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e76d34a138a3f5ffe5397bfcb44e78cf = L.circleMarker(
+                [51.276346, 0.523724],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_e76d34a138a3f5ffe5397bfcb44e78cf.bindTooltip(
+                `<div>
+                     Lauriem Complete Care Limited - Ditton (Lauriem Complete Care Limited) — 17.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3812f69cf0e00e3584d8f6f0a603a399 = L.circleMarker(
+                [51.071639, 1.083683],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_3812f69cf0e00e3584d8f6f0a603a399.bindTooltip(
+                `<div>
+                     Private Homecare Kent Ltd (Private Homecare Kent Ltd) — 10.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_159c1fafd5b2705f527bfaa5f8cd92a5 = L.circleMarker(
+                [51.263518, 0.758567],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_159c1fafd5b2705f527bfaa5f8cd92a5.bindTooltip(
+                `<div>
+                     Ellens Court Care Home (Inspire Care Outreach Limited) — 10.2 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e7bb2395aa24e065299d65f860926714 = L.circleMarker(
+                [51.342816, 0.718365],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_e7bb2395aa24e065299d65f860926714.bindTooltip(
+                `<div>
+                     Wurel House (David Adeolu Adekola) — 15.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d8e11a2fc957f39b4e8f2d1a4599d57f = L.circleMarker(
+                [51.363284, 0.607688],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_d8e11a2fc957f39b4e8f2d1a4599d57f.bindTooltip(
+                `<div>
+                     Hamilton House (Jorada Limited) — 19.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_85f1bc3fda9bedf99708b700feb9cdf1 = L.circleMarker(
+                [51.287428, 1.099556],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_85f1bc3fda9bedf99708b700feb9cdf1.bindTooltip(
+                `<div>
+                     Infinite Oasis Healthcare Ltd (Infinite Oasis Healthcare Ltd) — 14.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ccb110b077f9224d6b62eb8475a2f4cc = L.circleMarker(
+                [51.073175, 1.074234],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_ccb110b077f9224d6b62eb8475a2f4cc.bindTooltip(
+                `<div>
+                     PFC Care Ltd (PFC Care Ltd) — 9.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e0084092736b98d2327485721fd16ebb = L.circleMarker(
+                [51.150207, 0.875117],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_e0084092736b98d2327485721fd16ebb.bindTooltip(
+                `<div>
+                     Pcash Healthcare Limited (Pcash Healthcare Limited) — 1.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_19ff2406ca18fb9692fdffc250f37840 = L.circleMarker(
+                [51.238452, 0.568486],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_19ff2406ca18fb9692fdffc250f37840.bindTooltip(
+                `<div>
+                     Care Solutions Kent (Care Solutions Kent Limited) — 14.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5e8cfbe4c9cbd87c4f194b061c20bdcb = L.circleMarker(
+                [51.330997, 0.732296],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_5e8cfbe4c9cbd87c4f194b061c20bdcb.bindTooltip(
+                `<div>
+                     Boldglen Limited Medway Swale (Boldglen Limited) — 14.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fe8039f49057fda17062ef45731c9cd1 = L.circleMarker(
+                [51.131288, 1.279891],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_fe8039f49057fda17062ef45731c9cd1.bindTooltip(
+                `<div>
+                     Chameleon Care Ltd (Dover) (Chameleon Care Limited) — 17.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_82252776e745a0456a4f5fb30df740da = L.circleMarker(
+                [51.275779, 0.519564],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_82252776e745a0456a4f5fb30df740da.bindTooltip(
+                `<div>
+                     Osabea Healthcare Solutions Limited (Osabea Healthcare Solutions Limited) — 18.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9273eeac1cbd9cd8c5c5e73ef1f59045 = L.circleMarker(
+                [51.338757, 0.742794],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_9273eeac1cbd9cd8c5c5e73ef1f59045.bindTooltip(
+                `<div>
+                     H&R Domiciliary Care Limited (H&R Domiciliary Care Limited) — 15.2 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b473e64c0a4152a46c2a62a41ebf58f2 = L.circleMarker(
+                [51.329584, 0.538504],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b473e64c0a4152a46c2a62a41ebf58f2.bindTooltip(
+                `<div>
+                     Here-To-Serve HTS Care Ltd (Here-To-Serve HTS Care Ltd) — 19.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_69fef6b86fdbbb699d58090690ccc0be = L.circleMarker(
+                [51.238955, 0.518467],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_69fef6b86fdbbb699d58090690ccc0be.bindTooltip(
+                `<div>
+                     A Rated Homecare Ltd (A Rated Homecare Ltd) — 16.8 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b7abfea9c729447f44876ebb1c6fa64e = L.circleMarker(
+                [51.274072, 1.08968],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b7abfea9c729447f44876ebb1c6fa64e.bindTooltip(
+                `<div>
+                     Yourlife (Canterbury) (Yourlife Management Services Limited) — 13.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_310a104b4ac69b4bb59e14d8f2bd369f = L.circleMarker(
+                [51.267446, 0.568568],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_310a104b4ac69b4bb59e14d8f2bd369f.bindTooltip(
+                `<div>
+                     Gracefields Healthcare Ltd (Gracefields Healthcare Ltd) — 16.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a625cf445274b12738bb0b92126e3088 = L.circleMarker(
+                [51.281233, 0.536869],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_a625cf445274b12738bb0b92126e3088.bindTooltip(
+                `<div>
+                     Deluxe Healthcare Services (Deluxe Healthcare Services Ltd) — 17.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d0e46d71a63db70fb617f780f6824f15 = L.circleMarker(
+                [51.35051, 0.71701],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_d0e46d71a63db70fb617f780f6824f15.bindTooltip(
+                `<div>
+                     Lagracious Healthcare Limited (LHS+ Limited) — 16.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5c6fef66fd5fb060ac9e8fc306f27931 = L.circleMarker(
+                [51.35776, 1.056351],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_5c6fef66fd5fb060ac9e8fc306f27931.bindTooltip(
+                `<div>
+                     Alder Associates Office (Alder Associates Ltd) — 17.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_470239b20ef84c7373d4782fadf7193c = L.circleMarker(
+                [51.270883, 0.523898],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_470239b20ef84c7373d4782fadf7193c.bindTooltip(
+                `<div>
+                     Mavin Care Ltd (Mavin Care Ltd) — 17.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_de6508d28c9c7783875f476d9babeed4 = L.circleMarker(
+                [51.310059, 1.039889],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_de6508d28c9c7783875f476d9babeed4.bindTooltip(
+                `<div>
+                     Savanna Living Limited (Savanna Living Limited) — 14.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_43131e44814ccd6e2e539b28bdaa82ce = L.circleMarker(
+                [51.275779, 0.519564],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_43131e44814ccd6e2e539b28bdaa82ce.bindTooltip(
+                `<div>
+                     Heights Healthcare Ltd (Heights Healthcare Ltd) — 18.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_26c0685e18d7a61d294d954f87166ace = L.circleMarker(
+                [51.242188, 0.565857],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_26c0685e18d7a61d294d954f87166ace.bindTooltip(
+                `<div>
+                     Med-H Care Limited (Med-H Care Limited) — 15.1 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c5d31aed82d31140d1970fd41fe1dc4d = L.circleMarker(
+                [51.265643, 0.525833],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_c5d31aed82d31140d1970fd41fe1dc4d.bindTooltip(
+                `<div>
+                     Kent Social Care Professionals Domiciliary Service (Kent Social Care Professionals Limited) — 17.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_04332a9e295f96fbd9ec94fd03c30fc4 = L.circleMarker(
+                [50.985286, 0.938987],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_04332a9e295f96fbd9ec94fd03c30fc4.bindTooltip(
+                `<div>
+                     AZ Caring Services Romney Marsh (A Z Caring Services Ltd) — 10.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4b8d453b35d84e39bf7054fd3cbf2456 = L.circleMarker(
+                [51.280705, 0.486033],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_4b8d453b35d84e39bf7054fd3cbf2456.bindTooltip(
+                `<div>
+                     Empowering Support Services Ltd (Empowering Support Services Ltd) — 19.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_02ed4c30fbead61377d03b52c179b602 = L.circleMarker(
+                [51.270046, 1.106515],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_02ed4c30fbead61377d03b52c179b602.bindTooltip(
+                `<div>
+                     Royal Care Canterbury (Sreevijay Ltd) — 14.1 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f2daf31ccc724ed12b1a02962185ed8b = L.circleMarker(
+                [51.350998, 0.719222],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_f2daf31ccc724ed12b1a02962185ed8b.bindTooltip(
+                `<div>
+                     Quality Team Healthcare Ltd (Quality Team Healthcare Ltd) — 16.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dac352fa2200e58177f3f35018c07621 = L.circleMarker(
+                [51.336253, 0.703835],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_dac352fa2200e58177f3f35018c07621.bindTooltip(
+                `<div>
+                     SureCare Swale (Kent Care Ltd) — 15.8 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_29620fb59e66a1535c2ea233f1ec707d = L.circleMarker(
+                [51.144324, 0.906824],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_29620fb59e66a1535c2ea233f1ec707d.bindTooltip(
+                `<div>
+                     Meritum Integrated Care LLP (Ashford) (Meritum Integrated Care LLP) — 1.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_03b8d3fe5675a33ab26334ea2fb99e82 = L.circleMarker(
+                [51.152245, 1.290517],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_03b8d3fe5675a33ab26334ea2fb99e82.bindTooltip(
+                `<div>
+                     Nurse Plus UK - Dover (Nurse Plus and Carer Plus (UK) Limited) — 18.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a13e854ccbd38cf84d1b78a2cb5daf5a = L.circleMarker(
+                [51.371543, 0.642471],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_a13e854ccbd38cf84d1b78a2cb5daf5a.bindTooltip(
+                `<div>
+                     Genesyscare Healthcare Services Limited (Genesyscare Healthcare Services Limited) — 19.2 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a46d5a57ba2e297c49918ec153f731a8 = L.circleMarker(
+                [51.274754, 1.075041],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_a46d5a57ba2e297c49918ec153f731a8.bindTooltip(
+                `<div>
+                     A Heart for Care Limited (A Heart for Care Limited) — 13.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_20808881a917416ed20d95297867f7da = L.circleMarker(
+                [51.35816, 1.056191],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_20808881a917416ed20d95297867f7da.bindTooltip(
+                `<div>
+                     Pure Life Homecare (Altruistic (North Kent) Ltd) — 17.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2ecc705f1ed5524a9a238abcbb6a280b = L.circleMarker(
+                [51.287428, 1.097533],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_2ecc705f1ed5524a9a238abcbb6a280b.bindTooltip(
+                `<div>
+                     Care365 Limited (Care365 Limited) — 14.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ff481a031eb7159ad2666e8bec0f9b8a = L.circleMarker(
+                [51.365054, 0.739394],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_ff481a031eb7159ad2666e8bec0f9b8a.bindTooltip(
+                `<div>
+                     Jasper Conrad Group Ltd (Jasper Conrad Group Ltd) — 17.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4537471567e7b14ed5f67e3a77124c88 = L.circleMarker(
+                [51.168077, 0.626717],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_4537471567e7b14ed5f67e3a77124c88.bindTooltip(
+                `<div>
+                     Avengers Prime Care (Avengers Prime Care Ltd.) — 10.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0152fb38c5473c4f39e106cd0fc7ae85 = L.circleMarker(
+                [51.267088, 0.520967],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_0152fb38c5473c4f39e106cd0fc7ae85.bindTooltip(
+                `<div>
+                     The Garden of Kent Homecare LTD  t/a The Garden of England Homecare (The Garden Of Kent Homecare Ltd) — 17.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_09c1cf5f49f611ee2890ce29b7a2ec05 = L.circleMarker(
+                [51.282259, 1.072517],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_09c1cf5f49f611ee2890ce29b7a2ec05.bindTooltip(
+                `<div>
+                     MyLife (Kent) (CSN Care Group Limited) — 13.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9377cc36b1f80de18702abff82379310 = L.circleMarker(
+                [51.291587, 0.503316],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_9377cc36b1f80de18702abff82379310.bindTooltip(
+                `<div>
+                     Unity Care Solutions (Maidstone) (Unity Care Solutions Limited) — 19.2 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1edbb6bb1d1df54453a5b3f6ea973365 = L.circleMarker(
+                [51.356035, 1.024388],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_1edbb6bb1d1df54453a5b3f6ea973365.bindTooltip(
+                `<div>
+                     Beeches Homecare Services (Kent) (Mrs Theresa Clark) — 16.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ec63cd393347abfe38167e91a5814232 = L.circleMarker(
+                [51.150686, 0.884528],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_ec63cd393347abfe38167e91a5814232.bindTooltip(
+                `<div>
+                     Affinity Trust - Domiciliary Care Agency South East, Bedford and Northamptonshire (Affinity Trust) — 1.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_10f65b0b907ef84256721bb65b63ca9d = L.circleMarker(
+                [51.075775, 0.795499],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_10f65b0b907ef84256721bb65b63ca9d.bindTooltip(
+                `<div>
+                     Community Support Services (Canterbury Oast Trust) — 5.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5c2e5137bb1e513e5ad306e43aa8ccf8 = L.circleMarker(
+                [51.278487, 0.525791],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_5c2e5137bb1e513e5ad306e43aa8ccf8.bindTooltip(
+                `<div>
+                     Caremark Maidstone (T & T Care Group Ltd) — 17.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4024b96bd1317b28595f2a5c97c87622 = L.circleMarker(
+                [51.080949, 1.184319],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_4024b96bd1317b28595f2a5c97c87622.bindTooltip(
+                `<div>
+                     Expertise Homecare (South East Coast) (Cosmos Care Limited) — 14.2 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_98c3c9f764672440174154642e1bbc18 = L.circleMarker(
+                [51.35873, 1.131623],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_98c3c9f764672440174154642e1bbc18.bindTooltip(
+                `<div>
+                     Care at Home Services (South East) Limited – Canterbury, Herne Bay and Whitstable (Care at Home Services (South East) Limited) — 19.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b97b66d5a9d64c7b9f8308e9b27f74ba = L.circleMarker(
+                [51.079103, 1.178766],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b97b66d5a9d64c7b9f8308e9b27f74ba.bindTooltip(
+                `<div>
+                     Helping Hands Folkestone (Midshires Care Limited) — 14.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b6cdc80a5e3071865c327a3240183f30 = L.circleMarker(
+                [51.36313, 0.740112],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b6cdc80a5e3071865c327a3240183f30.bindTooltip(
+                `<div>
+                     Krystal Solutions Limited (Krystal Solutions Limited) — 16.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6bf24bf6eb4a092eabbf95b775b3ed25 = L.circleMarker(
+                [51.312225, 0.860066],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_6bf24bf6eb4a092eabbf95b775b3ed25.bindTooltip(
+                `<div>
+                     No Place Like Home (No Place Like Home Limited) — 12.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fdff1e2ebc2a781a8e4330d60edf14ce = L.circleMarker(
+                [51.074536, 1.013672],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_fdff1e2ebc2a781a8e4330d60edf14ce.bindTooltip(
+                `<div>
+                     HF Trust Hythe (HF Trust Limited) — 7.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c4394ea39d69882f156189d951ff5576 = L.circleMarker(
+                [51.281098, 1.085189],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_c4394ea39d69882f156189d951ff5576.bindTooltip(
+                `<div>
+                     Confident Care 24/7 (Confident Care 24/7 Ltd) — 14.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c17787939d04037f7a762d5cc9241c15 = L.circleMarker(
+                [51.270632, 0.517189],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_c17787939d04037f7a762d5cc9241c15.bindTooltip(
+                `<div>
+                     Phoenix Support Ltd (Phoenix Support Ltd) — 17.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0a56747d2bf949e71275e826dd9bc407 = L.circleMarker(
+                [51.37118, 1.127184],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_0a56747d2bf949e71275e826dd9bc407.bindTooltip(
+                `<div>
+                     Respect 4Care Ltd (Respect 4Care Ltd) — 20.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cb5593541026c873098c41cd40f1f3c2 = L.circleMarker(
+                [51.279769, 0.549178],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_cb5593541026c873098c41cd40f1f3c2.bindTooltip(
+                `<div>
+                     Continuity of Care Services Limited (Continuity of Care Services Limited) — 17.1 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_372ce90cbfe108865678098b04840922 = L.circleMarker(
+                [51.113345, 0.954236],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_372ce90cbfe108865678098b04840922.bindTooltip(
+                `<div>
+                     Care in Kent Limited (Care in Kent Limited) — 4.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fd4fac394a8216a8af2a5c092dcd601b = L.circleMarker(
+                [51.315392, 1.176062],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_fd4fac394a8216a8af2a5c092dcd601b.bindTooltip(
+                `<div>
+                     Blossom Home Care Canterbury (Luanelle Limited) — 18.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0856ef282b958be31f0a28575a7a7e86 = L.circleMarker(
+                [51.157927, 0.862895],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_0856ef282b958be31f0a28575a7a7e86.bindTooltip(
+                `<div>
+                     Beech Tree Total Care – Ashford (Care at Home Services (South East) Limited) — 1.8 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5e411b26483f7ec9ada461db9b92613f = L.circleMarker(
+                [51.376788, 0.721757],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_5e411b26483f7ec9ada461db9b92613f.bindTooltip(
+                `<div>
+                     Share the Care Limited Office (Share The Care Ltd) — 18.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_807d16071d4b9b75b3cc555c33c0563c = L.circleMarker(
+                [51.282297, 1.071415],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_807d16071d4b9b75b3cc555c33c0563c.bindTooltip(
+                `<div>
+                     Seniors Helping Seniors (Seniors Helping Seniors (UK) Limited) — 13.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0bdb43a02c51b7a1e140922ead6498a1 = L.circleMarker(
+                [51.150541, 0.865527],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_0bdb43a02c51b7a1e140922ead6498a1.bindTooltip(
+                `<div>
+                     Beech Tree Total Care - Ashford Extra Care Schemes (Care at Home Services (South East) Limited) — 1.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_506abcc94d056976c9f4310102b0ae4b = L.circleMarker(
+                [51.351872, 1.131413],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_506abcc94d056976c9f4310102b0ae4b.bindTooltip(
+                `<div>
+                     ComCare (Strode Park Foundation For People With Disabilities) — 19.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d0863ef899378c9cfa62cab4a344366a = L.circleMarker(
+                [51.342006, 0.748833],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_d0863ef899378c9cfa62cab4a344366a.bindTooltip(
+                `<div>
+                     Hallmark Care & Support Limited (Hallmark Care & Support Limited) — 15.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b323b2e1ff69e771eccd7468666ce2d1 = L.circleMarker(
+                [51.369436, 1.11771],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b323b2e1ff69e771eccd7468666ce2d1.bindTooltip(
+                `<div>
+                     East Kent Care Ltd – Herne Bay (East Kent Care Ltd) — 19.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c750d117bc03783fb184910036c9e918 = L.circleMarker(
+                [51.150686, 0.884528],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_c750d117bc03783fb184910036c9e918.bindTooltip(
+                `<div>
+                     Kent and Medway Domiciliary Care Agency (Voyage 1 Limited) — 1.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d38a6454e818514855abadcf8354c23d = L.circleMarker(
+                [51.270476, 0.524837],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_d38a6454e818514855abadcf8354c23d.bindTooltip(
+                `<div>
+                     Vibrant Homecare Maidstone (Faseha Healthcare Recruitment Ltd) — 17.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4bbbc7124b8d28ebc96d627b6e184606 = L.circleMarker(
+                [51.316228, 0.892608],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_4bbbc7124b8d28ebc96d627b6e184606.bindTooltip(
+                `<div>
+                     The Old Fire Station (Age Concern Gillingham) — 12.8 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9160602540878a5e842ee0938b1298c9 = L.circleMarker(
+                [51.364195, 0.602281],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_9160602540878a5e842ee0938b1298c9.bindTooltip(
+                `<div>
+                     Palcare Solutions Ltd (Palcare Solutions Ltd) — 19.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f0b137a40f28a87518dcfd68c36f4e2f = L.circleMarker(
+                [51.176255, 1.074933],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_f0b137a40f28a87518dcfd68c36f4e2f.bindTooltip(
+                `<div>
+                     Private Homecare Kent LTD (Stelling Minnis) (Private Homecare Kent Ltd) — 9.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ccfd07b907cf8e023b0cb652358aab0c = L.circleMarker(
+                [51.131288, 1.279891],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_ccfd07b907cf8e023b0cb652358aab0c.bindTooltip(
+                `<div>
+                     Royal Care Dover (Sreevijay Ltd) — 17.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e1f3bf85b43b2a64a61c1057b50f17fb = L.circleMarker(
+                [51.311253, 0.898466],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_e1f3bf85b43b2a64a61c1057b50f17fb.bindTooltip(
+                `<div>
+                     Cera- Kent (Cera Care Operations Limited) — 12.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_987ca76060f20aa234d57447449114c1 = L.circleMarker(
+                [51.170445, 0.867405],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_987ca76060f20aa234d57447449114c1.bindTooltip(
+                `<div>
+                     Clarity Homecare Ashford (Blossoms Trading Limited) — 2.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1892feaf3e0cf8378933e317d87cd8f5 = L.circleMarker(
+                [51.126501, 1.312186],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_1892feaf3e0cf8378933e317d87cd8f5.bindTooltip(
+                `<div>
+                     Scodef Care (Scodef Ltd) — 19.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3d51566777c886570b2124a7f03841e0 = L.circleMarker(
+                [51.04839, 0.510197],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_3d51566777c886570b2124a7f03841e0.bindTooltip(
+                `<div>
+                     Head First (Head First (ARCM) Limited) — 16.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9ec0e2d3dfb31d6ce558bfd8415e3cd4 = L.circleMarker(
+                [51.266493, 0.556243],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_9ec0e2d3dfb31d6ce558bfd8415e3cd4.bindTooltip(
+                `<div>
+                     Audley Care Ltd - Audley Care Mote House (Audley Care Ltd) — 16.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b974801ce4ab61b947d4558c7ff3b515 = L.circleMarker(
+                [51.291295, 1.099587],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b974801ce4ab61b947d4558c7ff3b515.bindTooltip(
+                `<div>
+                     4life Healthcare Services (4Life Healthcare Services Limited) — 14.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7592fa05241916e9fd18955f7cbb55da = L.circleMarker(
+                [51.150207, 0.875117],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_7592fa05241916e9fd18955f7cbb55da.bindTooltip(
+                `<div>
+                     GoodOaks Homecare - South Kent (Homelove Care Ltd) — 1.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fd1901c699bb449081415052d8bcdd56 = L.circleMarker(
+                [51.15039, 0.873526],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_fd1901c699bb449081415052d8bcdd56.bindTooltip(
+                `<div>
+                     Angelus Homecare - Ashford (South Eastern Solutions Limited) — 1.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_64e23664bfc7f6d9395de803802aa0fd = L.circleMarker(
+                [51.270883, 0.523898],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_64e23664bfc7f6d9395de803802aa0fd.bindTooltip(
+                `<div>
+                     Lakrizz Care Maidstone (Lakrizz Care Limited) — 17.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_897d4aa665af6300efe82b9e6eeb30b1 = L.circleMarker(
+                [51.330997, 0.732296],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_897d4aa665af6300efe82b9e6eeb30b1.bindTooltip(
+                `<div>
+                     Lakem Care Ltd (Lakem Care Ltd) — 14.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b3f6f161f8639e53f334e59c3be18360 = L.circleMarker(
+                [51.333635, 0.544169],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b3f6f161f8639e53f334e59c3be18360.bindTooltip(
+                `<div>
+                     Magnus Healthcare (Magnus Health Care Limited) — 19.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6416681d5c442c82d0d85df2efe6e3f4 = L.circleMarker(
+                [51.274845, 0.530768],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_6416681d5c442c82d0d85df2efe6e3f4.bindTooltip(
+                `<div>
+                     Xtracare Ltd (Xtracare Ltd) — 17.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f3ffc65d06b627be18edcab33cded5be = L.circleMarker(
+                [51.217914, 0.867204],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_f3ffc65d06b627be18edcab33cded5be.bindTooltip(
+                `<div>
+                     Vibrant Home Care (Faseha Healthcare Recruitment Ltd) — 5.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f9827c6c02075285b776134eb70a784c = L.circleMarker(
+                [51.150686, 0.884528],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_f9827c6c02075285b776134eb70a784c.bindTooltip(
+                `<div>
+                     Clarity Homecare (Ashford) (Clarity Homecare (Direct) Ltd) — 1.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_97ee75ce4cbf431ced44a6296cbaaae2 = L.circleMarker(
+                [51.16097, 1.293727],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_97ee75ce4cbf431ced44a6296cbaaae2.bindTooltip(
+                `<div>
+                     Lauriem Beeches (EC) (Lauriem Complete Care Limited) — 18.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b0fd40f72324af230b4ff119d7e3156 = L.circleMarker(
+                [51.317355, 1.175006],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_8b0fd40f72324af230b4ff119d7e3156.bindTooltip(
+                `<div>
+                     Care Quality Care LTD (Care Quality Care Ltd) — 18.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9e8ee6c6ccc7d2f175befb40b48524a9 = L.circleMarker(
+                [51.340841, 1.012616],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_9e8ee6c6ccc7d2f175befb40b48524a9.bindTooltip(
+                `<div>
+                     Superior Healthcare (The Superior Healthcare Group Ltd) — 15.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c8b0e2a6fd8f50e8dffd96adebb6a051 = L.circleMarker(
+                [51.132748, 0.866713],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_c8b0e2a6fd8f50e8dffd96adebb6a051.bindTooltip(
+                `<div>
+                     Royalcare Ashford (Sreevijay Ltd) — 0.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bee21d751ceef79a585efad6dee14f76 = L.circleMarker(
+                [51.270883, 0.523898],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_bee21d751ceef79a585efad6dee14f76.bindTooltip(
+                `<div>
+                     Open Doors Healthcare Services Ltd (Open Doors Healthcare Services Ltd) — 17.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b1a523bddfb85144627a25925188b608 = L.circleMarker(
+                [51.336253, 0.703835],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b1a523bddfb85144627a25925188b608.bindTooltip(
+                `<div>
+                     Care Matrix Homecare (Care Matrix Ltd) — 15.8 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f306b574ed2e5b7fbe02090b898c158b = L.circleMarker(
+                [51.080038, 1.168534],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_f306b574ed2e5b7fbe02090b898c158b.bindTooltip(
+                `<div>
+                     Channel Community Care Ltd (Channel Community Care Ltd) — 13.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5dd2082c99f87a450af278f551fa46df = L.circleMarker(
+                [51.276002, 1.082653],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_5dd2082c99f87a450af278f551fa46df.bindTooltip(
+                `<div>
+                     Primcura Healthcare Ltd (Primcura Healthcare Ltd) — 13.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_798c145dd8ad06d960634063d60998f7 = L.circleMarker(
+                [51.278745, 1.078219],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_798c145dd8ad06d960634063d60998f7.bindTooltip(
+                `<div>
+                     Thrive Homecare (Plan With Care Limited) — 13.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3f29c946b40662623fcce701ce61e24e = L.circleMarker(
+                [51.280404, 0.517378],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_3f29c946b40662623fcce701ce61e24e.bindTooltip(
+                `<div>
+                     Lauriem Thomas Place (EC) (Lauriem Complete Care Limited) — 18.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fb9b0268100fad00e7ab00bf993a7980 = L.circleMarker(
+                [51.262288, 0.509953],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_fb9b0268100fad00e7ab00bf993a7980.bindTooltip(
+                `<div>
+                     Lauriem Tovil Green (EC) (Lauriem Complete Care Limited) — 17.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a195a2feb210e80ab3f281553e1512a5 = L.circleMarker(
+                [51.17742, 0.489872],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_a195a2feb210e80ab3f281553e1512a5.bindTooltip(
+                `<div>
+                     Hilton Nursing Partners Limited (Hilton Nursing Partners Limited) — 16.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd275cc6c4c94aeb597470e45e8f6342 = L.circleMarker(
+                [51.275779, 0.519564],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_dd275cc6c4c94aeb597470e45e8f6342.bindTooltip(
+                `<div>
+                     Compassion Health Care Staffing Services Limited (Compassion Healthcare Staffing Services Ltd) — 18.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cc269fe26af4ffbfdcd272d05b446759 = L.circleMarker(
+                [51.275779, 0.519564],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_cc269fe26af4ffbfdcd272d05b446759.bindTooltip(
+                `<div>
+                     HNI Solution Care Ltd (HNI Solution Care Ltd) — 18.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b4ef32cfaa9d1694b30009f30ce561ae = L.circleMarker(
+                [51.12349, 0.852104],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b4ef32cfaa9d1694b30009f30ce561ae.bindTooltip(
+                `<div>
+                     Orange Lifecare Limited (Orange Lifecare Limited) — 0.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_647e6411fa7df607675de00f9a1820b6 = L.circleMarker(
+                [51.071308, 0.775386],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_647e6411fa7df607675de00f9a1820b6.bindTooltip(
+                `<div>
+                     Woodchurch House (Woodchurch House Limited) — 5.8 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8815ec09653a5f5644e29a8802eb97e3 = L.circleMarker(
+                [51.257316, 1.134914],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_8815ec09653a5f5644e29a8802eb97e3.bindTooltip(
+                `<div>
+                     Rusko Care Ltd (Rusko Care Ltd) — 14.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6eeb608efeec6714cf0ccce4bb4d0853 = L.circleMarker(
+                [50.951143, 0.731068],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_6eeb608efeec6714cf0ccce4bb4d0853.bindTooltip(
+                `<div>
+                     Bluebird Care (Rother & Hastings) (Most Stars Limited) — 13.8 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_db408bca5c9c5d6c10465c1ae91f02a9 = L.circleMarker(
+                [50.962007, 0.730338],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_db408bca5c9c5d6c10465c1ae91f02a9.bindTooltip(
+                `<div>
+                     Care at Home Services (South East) Limited – St Bartholomew’s Court (Care at Home Services (South East) Limited) — 13.2 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e4e523493e093972771a3e27620ca349 = L.circleMarker(
+                [51.363284, 0.607688],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_e4e523493e093972771a3e27620ca349.bindTooltip(
+                `<div>
+                     Community Careline (Community Careline Services Medway Limited) — 19.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e61cae1ca946b1c28cac6275040310d1 = L.circleMarker(
+                [51.348557, 0.594903],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_e61cae1ca946b1c28cac6275040310d1.bindTooltip(
+                `<div>
+                     Anderson M Care Services Ltd (Anderson M Care Services Ltd) — 19.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a1dd2515201380e0d142ea7c587f1377 = L.circleMarker(
+                [51.052887, 0.693498],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_a1dd2515201380e0d142ea7c587f1377.bindTooltip(
+                `<div>
+                     The Care Company (Mrs. Victoria Joan Burke) — 9.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fe848f5be11a3cff10938cdf9579f5d3 = L.circleMarker(
+                [51.270883, 0.523898],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_fe848f5be11a3cff10938cdf9579f5d3.bindTooltip(
+                `<div>
+                     Kent PBS Service (Home Group Limited) — 17.7 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1e9eb6a98865d00686855cf731ddd2e1 = L.circleMarker(
+                [51.267062, 1.060692],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_1e9eb6a98865d00686855cf731ddd2e1.bindTooltip(
+                `<div>
+                     SoarStar Ltd (Soarstar Company (UK) Ltd) — 12.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a412978ebaa60c254000976504fd0bbe = L.circleMarker(
+                [51.277644, 0.529014],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_a412978ebaa60c254000976504fd0bbe.bindTooltip(
+                `<div>
+                     Compass House (Choice Support) — 17.8 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7e9a31da03131489aef688d074ab93fd = L.circleMarker(
+                [51.364794, 0.610116],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_7e9a31da03131489aef688d074ab93fd.bindTooltip(
+                `<div>
+                     Rapid Care (Rapid Care Ltd) — 19.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b556355ab28d2287f7c4fd1ef358758a = L.circleMarker(
+                [51.40745, 0.907423],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b556355ab28d2287f7c4fd1ef358758a.bindTooltip(
+                `<div>
+                     Welcome Home (Neil Tucker) — 19.1 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b184c7b0c5585284483c425dcee8c217 = L.circleMarker(
+                [51.080038, 1.168534],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_b184c7b0c5585284483c425dcee8c217.bindTooltip(
+                `<div>
+                     United Response - Kent DCA (United Response) — 13.6 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_60e5a0255bb1d57721a7befc7624b853 = L.circleMarker(
+                [51.317355, 1.175006],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_60e5a0255bb1d57721a7befc7624b853.bindTooltip(
+                `<div>
+                     Temal Healthcare Agency Ltd (Temal Healthcare Agency Ltd) — 18.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_054060f43cf10a832e44453adc530846 = L.circleMarker(
+                [51.363284, 0.607688],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_054060f43cf10a832e44453adc530846.bindTooltip(
+                `<div>
+                     Bluebird Care (Swale) (Leo 1214 Limited) — 19.5 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c011f16c478eaf79b64987f1c3992ea6 = L.circleMarker(
+                [51.151119, 0.857368],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_c011f16c478eaf79b64987f1c3992ea6.bindTooltip(
+                `<div>
+                     Prudent Domiciliary Care (Prudent Domiciliary Care Limited) — 1.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1b427c56b4a371c17c0cbed6801df108 = L.circleMarker(
+                [51.311253, 0.898466],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_1b427c56b4a371c17c0cbed6801df108.bindTooltip(
+                `<div>
+                     PCAS Kent Ltd (PCAS Kent Ltd) — 12.4 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_db1048cefa887c795f3bcb07dce709b2 = L.circleMarker(
+                [51.284656, 0.556461],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_db1048cefa887c795f3bcb07dce709b2.bindTooltip(
+                `<div>
+                     Right at Home Maidstone (IA Care UK LTD) — 17.1 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3cf412797e1c8625045de1e4f4265667 = L.circleMarker(
+                [51.128654, 0.863843],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_3cf412797e1c8625045de1e4f4265667.bindTooltip(
+                `<div>
+                     Dependable Homecare LTD (Dependable Homecare LTD) — 0.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_746f6f4aa4ce41fa16e24a20921de3a3 = L.circleMarker(
+                [50.952754, 0.722561],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_746f6f4aa4ce41fa16e24a20921de3a3.bindTooltip(
+                `<div>
+                     Country Carers Limited (Country Carers Limited) — 13.9 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_597b49355e69c21cca0fca88579c4711 = L.circleMarker(
+                [51.119565, 1.288636],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_597b49355e69c21cca0fca88579c4711.bindTooltip(
+                `<div>
+                     Vibrant Care Home Dover (Faseha Healthcare Recruitment Ltd) — 18.3 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fd41793a8399188f7df2898ba934a66b = L.circleMarker(
+                [51.071514, 1.082319],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_fd41793a8399188f7df2898ba934a66b.bindTooltip(
+                `<div>
+                     Beech Tree Total Care – Dover and Hythe (Care at Home Services (South East) Limited) — 10.2 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_91ecd258d14b71bf465b3b2b1c3601a7 = L.circleMarker(
+                [51.134859, 1.306108],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            circle_marker_91ecd258d14b71bf465b3b2b1c3601a7.bindTooltip(
+                `<div>
+                     LDC Care Co Supported Living - Birch Tree (LDC Care Company Ltd) — 19.0 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c996175b9b33587ed910c8d1db41e7b7 = L.marker(
+                [51.1323, 0.867371],
+                {
+}
+            ).addTo(map_b73db4e16cbf0b89a1cdec5ba077f9aa);
+        
+    
+            var icon_dbd0b75ee2387a8da3f3b3b18fdea284 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c996175b9b33587ed910c8d1db41e7b7.bindTooltip(
+                `<div>
+                     Home Safe — TN23 6LN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c996175b9b33587ed910c8d1db41e7b7.setIcon(icon_dbd0b75ee2387a8da3f3b3b18fdea284);
+            
+</script>
+</html>
